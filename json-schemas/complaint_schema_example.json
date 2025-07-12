@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "trusteeInn": { "type": "string" },
+    "deloNum": { "type": "string" },
+    "complainerType": { "type": "string" },
+    "text": { "type": "string" }
+  },
+  "required": ["trusteeInn", "deloNum", "complainerType", "text"]
+}
